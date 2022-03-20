@@ -1,0 +1,51 @@
+[
+    {
+        "name": "shuchkin/simplexlsx",
+        "version": "0.8.21",
+        "version_normalized": "0.8.21.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/shuchkin/simplexlsx.git",
+            "reference": "6b6b2a7eed22a38cdb8c5e8ed17e4aa80eb40ced"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/shuchkin/simplexlsx/zipball/6b6b2a7eed22a38cdb8c5e8ed17e4aa80eb40ced",
+            "reference": "6b6b2a7eed22a38cdb8c5e8ed17e4aa80eb40ced",
+            "shasum": ""
+        },
+        "require": {
+            "ext-libxml": "*",
+            "ext-simplexml": "*",
+            "ext-zlib": "*"
+        },
+        "time": "2021-01-10T23:21:38+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/SimpleXLSX.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sergey Shuchkin (SMSPILOT)",
+                "email": "sergey.shuchkin@gmail.com",
+                "homepage": "http://www.shuchkin.ru/"
+            }
+        ],
+        "description": "Parse and retrieve data from Excel XLSx files. MS Excel 2007 workbooks PHP reader.",
+        "homepage": "https://github.com/shuchkin/simplexlsx",
+        "keywords": [
+            "backend",
+            "excel",
+            "parser",
+            "php",
+            "xlsx"
+        ]
+    }
+]
